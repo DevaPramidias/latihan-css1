@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+
+body {
+	background:#eee;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+	border:0;
+	background:#dedede;
+	height: 1px;
+}
+
+header{
+	text-align: center;
+	background-color: #EA9B43;
+	color: #696969;
+	height: 45px;
+	padding: 55px;
+}
+
+header .judul{
+	font-size: 25pt;
+	margin-top: 0pt;
+	color: #fff
+}
+
+header .deskripsi{
+	color: #fff;
+}
+.wrap {
+	width: 100%;
+	margin:0px auto;
+}
+
+.banner
+{
+    
+    margin-bottom: 0px;
+}
+ 
+.banner img
+{
+    
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+
+div.content{
+	float: none;
+	background-color: #fff;
+	color: #696969;
+	height: 250px;
+	padding: 55px;
+}
+div.footer{
+	text-align: center;
+	float: none;
+	background-color: #EA9B43;
+	color: #fff;
+	height: 15px;
+	padding: 10px;
+}
+
+nav.menu ul {
+	overflow:hidden;
+	color:#fff;
+	list-style: none;
+	float:left;
+	padding: 0;
+	width: 100%;
+	margin:0 0 0;
+	background: #F4A460;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+}
+
+nav.menu ul li {
+	margin-left: 180px;
+	float: left;
+}
+
+nav.menu ul a{
+	padding:15px;
+	display:block;
+	font-weight:600;
+	font-size: 15px;
+	color:#fff;
+	text-transform: uppercase;
+	transition: all 1.0s ease;
+	text-decoration: none;
+}
+
+nav.menu ul a:hover {
+	text-decoration: underline;
+	background:#16a085;
+}
+
+
+
+@media screen and (max-width: 960px) {
+
+	.header {
+		position:inherit;
+	}
+
+	.wrap {
+		width: 70px;
+		margin:25px auto;
+	}
+
+
+	nav.menu ul {
+		width: 100%;
+	}
+
+	nav.menu ul {
+		float:inherit;
+	}
+
+	nav.menu ul li {
+		float:inherit;
+		margin:0;
+	}
+
+	nav.menu ul a {
+		padding:15px;
+		font-size: 16px;
+		border-top:1px solid #1abf9f;
+		border-bottom:1px solid #16a085;
+	}
+
+@media screen and (max-width: 460px) {
+
+	nav.menu ul a {
+		padding: 15px;
+		font-size: 14px;
+	}
+
+
+}
+	nav.menu
+}
+}
